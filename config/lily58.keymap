@@ -13,7 +13,7 @@
         unir_celdas: unir_celdas {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp LEFT_ALT &kp LEFT_WIN &kp J>;
+            bindings = <&kp LEFT_SHIFT &kp RIGHT_ALT &kp LEFT_WIN &kp J>;
             label = "UNIR_CELDAS";
         };
     };
