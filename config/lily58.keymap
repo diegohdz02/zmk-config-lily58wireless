@@ -10,11 +10,18 @@
 
 / {
     macros {
-            unir_celdas: unir_celdas {
-                compatible = "zmk,behavior-macro";
-                #binding-cells = <0>;
-                bindings = <&kp LS(RA(LGUI(J)))>;
-                label = "UNIR_CELDAS";
+        unir_celdas: unir_celdas {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(RA(LGUI(J)))>;
+            label = "UNIR_CELDAS";
+        };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&gresc>;
+            label = "NEW_MACRO";
         };
     };
 
