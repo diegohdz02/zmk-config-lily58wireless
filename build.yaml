@@ -1,7 +1,5 @@
 include:
-  - board: nice_nano_v2  # O el MCU que uses, como nice_nano si es wireless
+  - board: nice_nano_v2
     shield: lily58_left
-    snippets: [studio-rpc-usb-uart]
-    cmake-args: ["-DCONFIG_ZMK_STUDIO=y"]  # Esto ya lo tienes vía .conf, pero asegúrate
   - board: nice_nano_v2
     shield: lily58_right
